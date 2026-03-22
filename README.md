@@ -1,15 +1,27 @@
 # work-environment-generator
 ### Simple bash script for creating project environment
 
-Usage:
-1. `chmod +x wokrenvgenerator.sh`
-2. `./workenvgenerator` <log-directory>
+### Features
 
 The script will create project environment consisting:
-- main project folder
-- scr, bin, docs, tests subfolders
-There is option to create git repository automatically. After that project can be opened in vs code.
+- main project directory
+- scr, bin, docs, tests subdirectories
+Additional options:
+- initialize a Git repository
+- open the project in VS Code
 
-For accesibility in a whole system, put script into you binary folder.
+### Usage:
+1. Clone the repository: `git clone` <repo-url>
+2. Make the script executable: `chmod +x workenvgenerator.sh`
+3. Run the script: `./workenvgenerator` <project-directory>
 
-Script will be upgraded soon!
+To make the script available system-wide, move it to your local binary directory, e.g.:
+mv workenvgenerator.sh /usr/local/bin/workenvgenerator
+
+### Requirements
+- Linux
+- Bash
+
+#### Notes
+
+This is a simple utility script and may be extended with additional features in the future.
