@@ -6,6 +6,7 @@
 The script will create project environment consisting:
 - main project directory
 - scr, bin, docs, tests subdirectories
+
 Additional options:
 - initialize a Git repository
 - open the project in VS Code
