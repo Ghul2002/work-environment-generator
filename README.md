@@ -16,7 +16,8 @@ Additional options:
 3. Run the script: `./workenvgenerator` <project-directory>
 
 To make the script available system-wide, move it to your local binary directory, e.g.:
-mv workenvgenerator.sh /usr/local/bin/workenvgenerator
+
+`mv workenvgenerator.sh /usr/local/bin/workenvgenerator`
 
 ### Requirements
 - Linux
